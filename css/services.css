@@ -14,7 +14,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    
     padding-top: 30px;
 }
 
@@ -42,12 +41,18 @@
 .branding{
     padding-left: 20px;
     margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:  10px 0;
 }
 .branding h1 {
     font-size: 46px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 hr{
+    margin-top: 15px;
     width: 7%;
     border-radius: 25px;
     height: 3px;
@@ -86,12 +91,8 @@ hr{
     width: 13%;
     min-width: 250px;
     padding: 0px;
-    border:  1px none #cce7d0;
-    
     margin: 7px 0;
     border-radius: 20px;
-    
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     transition: 0.2s ease;
    
 }
@@ -99,6 +100,15 @@ hr{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 } */
 
+
+#prod{
+    width: 73%; 
+    min-width: 250px;
+    padding: 0 20px;
+    margin: 7px 0;
+    border-radius: 20px;
+    transition: 0.2s ease; 
+}
 #product1 .pro img{
     width: 100%;
     border-radius: 30px;
@@ -205,4 +215,210 @@ blockquote {
     border-radius: 15px;
     cursor: pointer;
 }
+
+
+
+
+
+
+/* ---------------------------------------Designing And Printing -----------------------------*/
+
+.serve{
+    height: 32vh;
+   
+}
+
+.serviceDesc{
+  
+    display: flex;
+    flex-direction: row;
+    height: 28vh; 
+  
+  
+     
+}
+
+
+#serviceHeading{
+    padding-left: 30px;
+}
+
+
+
+#imageDesc{
+     width: 570px; 
+   
+} 
+#imageDesc img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+   
+}
+
+.descriptionpara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.descriptionpara p{
+   font-size: 20px;
+   color: #111;
+}
+
+#otherButn{
+  background: #00093c;
+  width: 140px;
+  margin: 20px 30px;
+  border-radius: 7px;
+  color: white;
+  padding: 2px 10px;
+  cursor: pointer;
+ 
+}
+#otherButn a{
+    color: white;
+   
+}
+
+
+
+/* ------------------Other Service Page--------------------------------------- */
+
+
+
+.conter-image{
+    width: 370px;
+    height: 400px;
+    box-shadow: 0 10px 20px 3px #15151514;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 20px 20px;
+}
+.conter-image img{
+    border-radius: 10px;
+    height: 77%;
+    
+  
+}
+.conter-image p{
+    padding: 0 10px;
+    color: #111;
+    font-size: 18px;
+}
+
+
+
+@media (max-width:770px){
+ 
+    .continer2{
+        
+        flex-direction: column;
+        align-items: center;
+       
+    }
+   
+}
+
+
+@media (max-width:420px){
+    .conter-image{
+        width: 250px;
+        height: 400px;
+    }
+ 
+}
+
+.training{
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+ 
+  
+}
+.trainingImage{
+    width: 400px;
+    height: 500px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 20px;
+}
+
+
+@media (max-width:770px){
+    .training{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:700px){
+    .trainingImage{
+        width: 300px;
+    }
+}
+
+@media (max-width:320px){
+    .trainingImage{
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.trainingBckground{
+    text-align: center;
+}
+.trainingBckground h2{
+    color: white;
+    font-size: 25px;
+}
+
+#srv{
+    text-align: center;
+    padding: 0 10px;
+}
+
+#srv ul{
+    list-style: none;
+}
+
+
+#c1{
+    background:linear-gradient(rgba(0,0,0,0.5),#65e3ec),url(../images/services/Otherservices/Computer-Courses.jpg)   ;
+}
+#c2{
+    background:linear-gradient(rgba(0,0,0,0.5),#1c1c1d),  url(../images/services/Otherservices/shutterstock_128292056.jpg)   ; 
+    height:400px ;
+}
+
+#c3{
+    background:linear-gradient(rgba(0,0,0,0.5),#6565ec),url(../images/services/Otherservices/istockphoto-1456192902-612x612.jpg)   ;
+}
+/* .conter-image2:hover{
+    border: 10px solid rgb(78, 12, 12);} */
+
 
